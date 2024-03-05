@@ -1,1 +1,1 @@
-# Word Cloude Genrator
+# Word Cloud Generator
