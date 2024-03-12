@@ -1,1 +1,1 @@
-# qord Cloud Generator
+# Word Cloud Generator
