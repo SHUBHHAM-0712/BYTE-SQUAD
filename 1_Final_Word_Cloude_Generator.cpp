@@ -7,9 +7,9 @@
 #include <algorithm>
 using namespace std;
 
-#include "Split_String.cpp"
-#include "Frequency_Count_&_Sort.cpp"
-#include "Print_WordCloude.cpp"
+#include "2_Split_String.cpp"
+#include "3_Frequency_Count_&_Sort.cpp"
+#include "4_Print_WordCloude.cpp"
 
 namespace fs = std::filesystem;
 
