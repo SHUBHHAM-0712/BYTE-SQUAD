@@ -6,7 +6,7 @@ using namespace std;
 
 bool commonword(string word)
 {
-    ifstream ex("excluded_words.txt");
+    ifstream ex("3.1_excluded_words.txt");
     string str;
     while (!ex.eof())
     {
