@@ -1,0 +1,52 @@
+                                      ALGORITHM
+  
+
+
+
+1. Include Necessary Libraries:
+* The standard C++ libraries, `<iostream>`, `<vector>`, `<fstream>`, `<cstring>`, and `<algorithm>`, are included in the code. 
+* In addition to these libraries, it also includes `<tr1/unordered_map>` and `<filesystem>`. which defines an unordered map (hash map) for storing word frequencies, while the usage of `<filesystem>` is for a directory iteration to process files in a specified folder.
+
+
+2. Common Word Check Function (`commonword`):
+*  This program has a file "3.1_excluded_words.txt" that contains the words often used in writing as its reading input.
+*   If the given word is in the list of words, the function returns `true`; otherwise, it returns `false`.
+
+3. Update Frequency Function (`updateFrequency`):
+* It updates the word count in an unordered map, where common words are not considered.It receives a string vector (vect) as input data with words and an unordered map (m). 
+* It uses a loop that traverses all elements of the vector, checks if the current word is a common (using the commonword function), and if not, adds the frequency to its count in the map.
+
+
+4. Comparator Function (`cmp`):
+*  ‘Cmp ‘ defines a comparison function used for sorting pairs of strings and integers in descending order of frequency.
+*  It returns `true` if the frequency of the first pair (`a`) is greater than the frequency of the second pair (`b`).
+
+5. Print Word Cloud Function (`PrintWordCloude`):
+* `PrintWordCloude` prints the most frequent words and generates an HTML file that displays a word cloud.
+* It takes a reference to a vector of pairs representing words and their frequencies.
+* It prompts the user to enter the number of most frequent words to be displayed in the word cloud.
+* It prints the specified number of most frequent words along with their frequencies .It generates an HTML file "word_cloud.html" that contains the specified number of most frequent words formatted for display as a word cloud.
+
+
+6. Tokenization Function (`splitStringIntoTokens`):
+* ‘splitStringIntoTokens’ takes a string as input and then splits it into tokens based on alphabetic characters and converts them to lowercase.
+* It iterates  each character in the input string and produces tokens consisting of consecutive alphabetic characters.
+* When a non-alphabetic character is found, it pushes the token into a vector if it's not empty and clears the token.
+* It returns a vector containing all the tokens extracted from the input string
+
+
+7. Main Function:
+* The main function initialise an empty unordered map (`m`) to store word frequencies.
+* It specifies the folder path containing the files which are going to be  processed.
+* It iterates files in the specified folder using `<filesystem>`, reads each file, and updates the frequency map using `updateFrequency`.
+* It converts the frequency map to a vector of pairs for sorting and sorts it based on word frequencies.
+* It then calls `PrintWordCloude` to print the word cloud and generate the HTML file.
+* It handles exceptions such as file opening errors and other runtime errors using try-catch blocks.
+
+
+8. Namespace Declaration:
+* This section creates an alias `fs` for `std::filesystem` to simplify usage of the filesystem library.
+
+
+9. Error Handling:
+* The code includes error handling mechanisms using try-catch blocks to handle file opening errors and other exceptions that may occur during program execution
