@@ -22,26 +22,6 @@ Accordingly a image cloud is generated in which the font size is proportional to
 
 ⇨ While in Unordered Maps this sorting is not done implicitly. Hence We'd decided to go with Unordered Maps. Besides Unordered Maps we also used Vector which was used for sorting Words according to their frequency. 
 
-### • INDIVIDUAL CONTRIBUTIONS :
-
-#### ⇨ Shubham Ramoliya - 202301442 :   
-→ Reading the files from folder.  
-→ Tokenizing the words and converting capital     letters to small letters. (because "Panther" & "panther" will be treated as two different words if didn't converted explicitly)  
-
-#### ⇨ Archan Maru - 202301217 :  
-→ Created a function in which all the tokenized words will be stored in Unordered Map (word as key & frequency as value).  
-→ Created a Sorting function which sorts the Elements according to their value(frequency).
-
-#### ⇨ Ayush Chovatiya - 202301461 :      
-→ Created a function which checks whether the word is unique or not , using file handling by accessing excluded_words.txt.  
-→ Created a print function.  
-→ HTML code basic.
-
-#### ⇨ Rishabh Jalu - 202301265 :  
-→ Created a List of excluded words.  
-→ Cascading Style Sheets(CSS) code.  
-→ Added Comments and collected various sample txt files.  
-
 ### • TIME & SPACE COMPLEXITY :  
 ⇨  TIME COMPLEXITY :  
 
@@ -63,5 +43,24 @@ n = total no. of unique words.
 #### ⁕ Overall space-complexity : O(m)  
 m = total no. of words.
 
- 
+ ### • INDIVIDUAL CONTRIBUTIONS :
+
+#### ⇨ Shubham Ramoliya - 202301442 :   
+→ Reading the files from folder.  
+→ Tokenizing the words and converting capital     letters to small letters. (because "Panther" & "panther" will be treated as two different words if didn't converted explicitly)  
+
+#### ⇨ Archan Maru - 202301217 :  
+→ Created a function in which all the tokenized words will be stored in Unordered Map (word as key & frequency as value).  
+→ Created a Sorting function which sorts the Elements according to their value(frequency).
+
+#### ⇨ Ayush Chovatiya - 202301461 :      
+→ Created a function which checks whether the word is unique or not , using file handling by accessing excluded_words.txt.  
+→ Created a print function.  
+→ HTML code basic.
+
+#### ⇨ Rishabh Jalu - 202301265 :  
+→ Created a List of excluded words.  
+→ Cascading Style Sheets(CSS) code.  
+→ Added Comments and collected various sample txt files.  
+
     
