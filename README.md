@@ -64,5 +64,5 @@ m = total no. of words.
 → Added Comments and collected various sample txt files.  
 
 ### • NOTE :
-→ Here, First you have to run C++ code. Then, a Python source file will be generated. Then, you will have to run the python code.
+→ Here, First you have to run C++ code. Then, a Python source file will be generated. Then, you will have to run the python code.  
 → The output will be a desent word-cloud image.  
