@@ -17,7 +17,7 @@ namespace fs = std::filesystem;
 int main()
 {
     unordered_map<string, int> m;
-    string folderPath = "C:/Users/ramol/OneDrive/Desktop/COURSES/Word Cloud Generator/Final Files/New folder"; // Change this to your folder path
+    string folderPath = "Path To Your Folder For Scanning Documents"; // Change this to your folder path
     
     try
     {
@@ -39,9 +39,9 @@ int main()
             m  = updateFrequency(vect,m);
         }
     }
-    catch (const std::exception &e)
+    catch (const exception &e)
     {
-        std::cerr << "Error: " << e.what() << std::endl;
+        cerr << "Error: " << e.what() << endl;
         return 1;
     }
 
