@@ -34,11 +34,10 @@ Accordingly a image cloud is generated in which the font size is proportional to
 #### ⇨ Ayush Chovatiya - 202301461 :      
 → Created a function which checks whether the word is unique or not , using file handling by accessing excluded_words.txt.  
 → Created a print function.  
-→ HTML code basic.
 
 #### ⇨ Rishabh Jalu - 202301265 :  
-→ Created a List of excluded words.  
-→ Cascading Style Sheets(CSS) code.  
+→ Created a List of excluded words. 
+→ Created printing function and Give Idea About Generating Python Code.   
 → Added Comments and collected various sample txt files.  
 
 ### • NOTE :
