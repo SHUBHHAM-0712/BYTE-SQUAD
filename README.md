@@ -22,29 +22,7 @@ Accordingly a image cloud is generated in which the font size is proportional to
 
 ⇨ While in Unordered Maps this sorting is not done implicitly. Hence We'd decided to go with Unordered Maps. Besides Unordered Maps we also used Vector which was used for sorting Words according to their frequency. 
 
-### • TIME & SPACE COMPLEXITY :  
-⇨  TIME COMPLEXITY :  
-
-→ Reading Files and tokenization : O(n) ,where n is the number of characters in all files combined.  
-
-→ Counting Frequencies :  Worst-Case O(m) ,when all words are unique & m is the no. of words processed.  
-
-→ Sorting : O(nlogn)  
-
-→ Printing Words : O(k) ,where k is user-given, and it prints top k-most frequent words.  
-
-⇨ SPACE COMPLEXITY :  
-→ vector(string): size depends on total number of words in all files.
-→ unordered map: size depends on the number of unique words in all files.  
-→ vector(pair-for sorting): number of unique words stored in unordered map.
-
-#### ⁕ Overall time-complexity : O(n logn) 
-n = total no. of unique words.   
-#### ⁕ Overall space-complexity : O(m)  
-m = total no. of words.
-
- ### • INDIVIDUAL CONTRIBUTIONS :
-
+### • INDIVIDUAL CONTRIBUTIONS :
 #### ⇨ Shubham Ramoliya - 202301442 :   
 → Reading the files from folder.  
 → Tokenizing the words and converting capital     letters to small letters. (because "Panther" & "panther" will be treated as two different words if didn't converted explicitly)  
