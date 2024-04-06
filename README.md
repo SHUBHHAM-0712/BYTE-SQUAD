@@ -40,6 +40,28 @@ Accordingly a image cloud is generated in which the font size is proportional to
 #### ⇨ Rishabh Jalu - 202301265 :  
 → Created a List of excluded words.  
 → Cascading Style Sheets(CSS) code.  
-→ Added Comments and collected various sample txt files.
+→ Added Comments and collected various sample txt files.  
 
+### • TIME & SPACE COMPLEXITY :  
+⇨  TIME COMPLEXITY :  
+
+→ Reading Files and tokenization : O(n) ,where n is the number of characters in all files combined.  
+
+→ Counting Frequencies :  Worst-Case O(m) ,when all words are unique & m is the no. of words processed.  
+
+→ Sorting : O(nlogn)  
+
+→ Printing Words : O(k) ,where k is user-given, and it prints top k-most frequent words.  
+
+⇨ SPACE COMPLEXITY :  
+→ vector(string): size depends on total number of words in all files.
+→ unordered map: size depends on the number of unique words in all files.  
+→ vector(pair-for sorting): number of unique words stored in unordered map.
+
+#### ⁕ Overall time-complexity : O(n logn) 
+n = total no. of unique words.   
+#### ⁕ Overall space-complexity : O(m)  
+m = total no. of words.
+
+ 
     
