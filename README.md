@@ -36,7 +36,7 @@ Accordingly a image cloud is generated in which the font size is proportional to
 → Created a print function.  
 
 #### ⇨ Rishabh Jalu - 202301265 :  
-→ Created a List of excluded words. 
+→ Created a List of excluded words.  
 → Created printing function and Give Idea About Generating Python Code.   
 → Added Comments and collected various sample txt files.  
 
