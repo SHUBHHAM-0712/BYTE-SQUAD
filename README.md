@@ -42,5 +42,5 @@ Accordingly a image cloud is generated in which the font size is proportional to
 
 ### • NOTE :
 → Here, First you have to run C++ code. Then, a Python source file will be generated. Then, you will have to run the python code.  
-→ Python code will generate word-cloude image.Along With Python Code File another File is Generated Which Is Imported Into Python File To Generte Image From It.  
+→ Python code will generate word-cloude image.Along With Python Code File another File is   Generated Which Is Imported Into Python File To Generte Image From It.  
 → The output will be a desent word-cloud image.  
